@@ -14,7 +14,6 @@ btnclick.onclick = function() {
     }    
 }
 
-
 inputTxt.onkeydown = function(event) {
     let keycode = event.keyCode;
     // 13 É A TECLA ENTER 

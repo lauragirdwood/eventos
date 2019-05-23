@@ -1,26 +1,21 @@
-let corpo = document.querySelector("body");
+let btnHello = document.querySelector("#btnHello");
 
-corpo.addEventListener("keypress", function(event){
-    let tecla = event.keyCode;
-    if (tecla == 13) {
-        alert("Você clicou enter")
-    } else if (tecla = 32) {
-        alert("Você clicou espaço")
-    }
+btnHello.addEventListener("click", function(){
+    setTimeout (function(){
+        alert("Obrigada por esperar 10 segundos!");
+    }, 10000);
 });
 
+// let corpo = document.querySelector("body");
 
-
-
-
-
-
-
-
-
-
-
-
+// corpo.addEventListener("keypress", function(event){
+//     let tecla = event.keyCode;
+//     if (tecla == 13) {
+//         alert("Você clicou enter")
+//     } else if (tecla = 32) {
+//         alert("Você clicou espaço")
+//     }
+// });
 
 
 // elemento = document.querySelector("btnHello")
